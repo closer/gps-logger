@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30F2E4F61589F64600567096 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F2E4F51589F64500567096 /* UIKit.framework */; };
+		30F2E4F81589F64600567096 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F2E4F71589F64600567096 /* Foundation.framework */; };
+		30F2E4FA1589F64600567096 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F2E4F91589F64600567096 /* CoreGraphics.framework */; };
+		30F2E5001589F64600567096 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30F2E4FE1589F64600567096 /* InfoPlist.strings */; };
+		30F2E5021589F64600567096 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F2E5011589F64600567096 /* main.m */; };
+		30F2E5061589F64600567096 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F2E5051589F64600567096 /* AppDelegate.m */; };
+		30F2E5091589F64600567096 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F2E5071589F64600567096 /* MainStoryboard_iPhone.storyboard */; };
+		30F2E50C1589F64600567096 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F2E50A1589F64600567096 /* MainStoryboard_iPad.storyboard */; };
+		30F2E50F1589F64700567096 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F2E50E1589F64700567096 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30F2E4F11589F64500567096 /* GPSLoger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSLoger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F2E4F51589F64500567096 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30F2E4F71589F64600567096 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30F2E4F91589F64600567096 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		30F2E4FD1589F64600567096 /* GPSLoger-Info.plist */ = {isa = PBXFileReference; path = "GPSLoger-Info.plist"; sourceTree = "<group>"; };
+		30F2E4FF1589F64600567096 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30F2E5011589F64600567096 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30F2E5031589F64600567096 /* GPSLoger-Prefix.pch */ = {isa = PBXFileReference; path = "GPSLoger-Prefix.pch"; sourceTree = "<group>"; };
+		30F2E5041589F64600567096 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		30F2E5051589F64600567096 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30F2E5081589F64600567096 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		30F2E50B1589F64600567096 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		30F2E50D1589F64600567096 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		30F2E50E1589F64700567096 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30F2E4EE1589F64500567096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F2E4F61589F64600567096 /* UIKit.framework in Frameworks */,
+				30F2E4F81589F64600567096 /* Foundation.framework in Frameworks */,
+				30F2E4FA1589F64600567096 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30F2E4E61589F64500567096 = {
+			isa = PBXGroup;
+			children = (
+				30F2E4FB1589F64600567096 /* GPSLoger */,
+				30F2E4F41589F64500567096 /* Frameworks */,
+				30F2E4F21589F64500567096 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30F2E4F21589F64500567096 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30F2E4F11589F64500567096 /* GPSLoger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30F2E4F41589F64500567096 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30F2E4F51589F64500567096 /* UIKit.framework */,
+				30F2E4F71589F64600567096 /* Foundation.framework */,
+				30F2E4F91589F64600567096 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30F2E4FB1589F64600567096 /* GPSLoger */ = {
+			isa = PBXGroup;
+			children = (
+				30F2E5041589F64600567096 /* AppDelegate.h */,
+				30F2E5051589F64600567096 /* AppDelegate.m */,
+				30F2E5071589F64600567096 /* MainStoryboard_iPhone.storyboard */,
+				30F2E50A1589F64600567096 /* MainStoryboard_iPad.storyboard */,
+				30F2E50D1589F64600567096 /* ViewController.h */,
+				30F2E50E1589F64700567096 /* ViewController.m */,
+				30F2E4FC1589F64600567096 /* Supporting Files */,
+			);
+			path = GPSLoger;
+			sourceTree = "<group>";
+		};
+		30F2E4FC1589F64600567096 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30F2E4FD1589F64600567096 /* GPSLoger-Info.plist */,
+				30F2E4FE1589F64600567096 /* InfoPlist.strings */,
+				30F2E5011589F64600567096 /* main.m */,
+				30F2E5031589F64600567096 /* GPSLoger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30F2E4F01589F64500567096 /* GPSLoger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F2E5121589F64700567096 /* Build configuration list for PBXNativeTarget "GPSLoger" */;
+			buildPhases = (
+				30F2E4ED1589F64500567096 /* Sources */,
+				30F2E4EE1589F64500567096 /* Frameworks */,
+				30F2E4EF1589F64500567096 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPSLoger;
+			productName = GPSLoger;
+			productReference = 30F2E4F11589F64500567096 /* GPSLoger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30F2E4E81589F64500567096 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 30F2E4EB1589F64500567096 /* Build configuration list for PBXProject "GPSLoger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30F2E4E61589F64500567096;
+			productRefGroup = 30F2E4F21589F64500567096 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30F2E4F01589F64500567096 /* GPSLoger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30F2E4EF1589F64500567096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F2E5001589F64600567096 /* InfoPlist.strings in Resources */,
+				30F2E5091589F64600567096 /* MainStoryboard_iPhone.storyboard in Resources */,
+				30F2E50C1589F64600567096 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30F2E4ED1589F64500567096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F2E5021589F64600567096 /* main.m in Sources */,
+				30F2E5061589F64600567096 /* AppDelegate.m in Sources */,
+				30F2E50F1589F64700567096 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30F2E4FE1589F64600567096 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F2E4FF1589F64600567096 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		30F2E5071589F64600567096 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F2E5081589F64600567096 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		30F2E50A1589F64600567096 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F2E50B1589F64600567096 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30F2E5101589F64700567096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30F2E5111589F64700567096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30F2E5131589F64700567096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPSLoger/GPSLoger-Prefix.pch";
+				INFOPLIST_FILE = "GPSLoger/GPSLoger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		30F2E5141589F64700567096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPSLoger/GPSLoger-Prefix.pch";
+				INFOPLIST_FILE = "GPSLoger/GPSLoger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30F2E4EB1589F64500567096 /* Build configuration list for PBXProject "GPSLoger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F2E5101589F64700567096 /* Debug */,
+				30F2E5111589F64700567096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30F2E5121589F64700567096 /* Build configuration list for PBXNativeTarget "GPSLoger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F2E5131589F64700567096 /* Debug */,
+				30F2E5141589F64700567096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30F2E4E81589F64500567096 /* Project object */;
+}

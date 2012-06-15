@@ -23,15 +23,15 @@
 		30F2E4F51589F64500567096 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		30F2E4F71589F64600567096 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		30F2E4F91589F64600567096 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		30F2E4FD1589F64600567096 /* GPSLoger-Info.plist */ = {isa = PBXFileReference; path = "GPSLoger-Info.plist"; sourceTree = "<group>"; };
+		30F2E4FD1589F64600567096 /* GPSLoger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPSLoger-Info.plist"; sourceTree = "<group>"; };
 		30F2E4FF1589F64600567096 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		30F2E5011589F64600567096 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		30F2E5031589F64600567096 /* GPSLoger-Prefix.pch */ = {isa = PBXFileReference; path = "GPSLoger-Prefix.pch"; sourceTree = "<group>"; };
-		30F2E5041589F64600567096 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		30F2E5031589F64600567096 /* GPSLoger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPSLoger-Prefix.pch"; sourceTree = "<group>"; };
+		30F2E5041589F64600567096 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30F2E5051589F64600567096 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		30F2E5081589F64600567096 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		30F2E50B1589F64600567096 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		30F2E50D1589F64600567096 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		30F2E50D1589F64600567096 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		30F2E50E1589F64700567096 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
